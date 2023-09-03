@@ -2,7 +2,6 @@ package com.ohashi.usermanagerexampleservice.application.web.controller.handlers
 
 import com.ohashi.usermanagerexampleservice.application.web.controller.handlers.exceptions.ApiErrorMessage;
 import com.ohashi.usermanagerexampleservice.domain.exception.UserAlreadyExistsException;
-import org.apache.coyote.Response;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
