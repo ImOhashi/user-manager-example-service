@@ -1,6 +1,8 @@
 package com.ohashi.usermanagerexampleservice.resources.model;
 
-public class Address {
+import java.io.Serializable;
+
+public class Address implements Serializable {
 
     public Address(String zipCode, String street, String number, String state) {
         this.zipCode = zipCode;
